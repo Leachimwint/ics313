@@ -1,0 +1,82 @@
+Script started on Fri Oct 25 22:51:13 2013
+uhx01:/home01/26/mwinter/ICS313/mwinter5% /opt/acl60/alisp
+International Allegro CL Enterprise Edition
+6.0 [Solaris] (Sep 8, 2004 10:49)
+Copyright (C) 1985-2000, Franz Inc., Berkeley, CA, USA.  All Rights Reserved.
+
+This copy of Allegro CL is licensed to:
+   David Chin, University of Hawaii
+
+;; Optimization settings: safety 1, space 1, speed 1, debug 2.
+;; For a complete description of all compiler switches given the
+;; current optimization settings evaluate (EXPLAIN-COMPILER-SETTINGS).
+CL-USER(1): (load "mwinter5a.ls isp"_^?)    )
+; Loading /home01/26/mwinter/ICS313/mwinter5/mwinter5a.lisp
+T
+CL-USER(2): (game-repl)
+look
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor. You see a bucket on the
+ floor. You see a left-gauntlet on the floor.pickup bucket
+
+You are now carrying the bucketpickup left-gauntlet
+
+You are now carrying the left-gauntletwalk upstairs
+
+You are in the attic. There is a giant welding torch in the corner.
+ there is a ladder going downstairs from here. You see a right-gauntlet
+ on the floor.pickup right-gauntlet
+
+You are now carrying the right-gauntletwalk downstairs
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.walk west
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.
+ you see a frog on the floor. You see a chain on the floor. You see a
+ chain-mail on the floor. You see a full-suit-of-armour on the floor.pickup chain
+
+You are now carrying the chainwalk east
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.walk upstairs
+
+You are in the attic. There is a giant welding torch in the corner.
+ there is a ladder going downstairs from here.weld chain bucket
+
+The chain is now securely welded to the bucket.walk downstairs
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.walk west
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.
+ you see a frog on the floor. You see a chain-mail on the floor. You
+ see a full-suit-of-armour on the floor.dunk bucket well
+
+The bucket is now full of waterwalk weset
+
+You cannot go that way.walk west
+
+You cannot go that way.walk east
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.splash bucket wis          wizard bucket
+
+I cant splash like that.w splash bucket wizard
+
+The wizard awakens from his slumber and greets you warmly. He hands
+     you the magic low-carb donut- you win! The end.quit
+
+NIL
+CL-USER(3): (exit)
+; Exiting Lisp
+uhx01:/home01/26/mwinter/ICS313/mwinter5% exit
+uhx01:/home01/26/mwinter/ICS313/mwinter5% 
+script done on Fri Oct 25 22:54:35 2013

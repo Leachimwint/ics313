@@ -1,0 +1,97 @@
+Script started on Sat Oct 26 23:03:05 2013
+uhx01:/home01/26/mwinter/ICS313/mwinter5% /opt/acl60/alisp
+International Allegro CL Enterprise Edition
+6.0 [Solaris] (Sep 8, 2004 10:49)
+Copyright (C) 1985-2000, Franz Inc., Berkeley, CA, USA.  All Rights Reserved.
+
+This copy of Allegro CL is licensed to:
+   David Chin, University of Hawaii
+
+;; Optimization settings: safety 1, space 1, speed 1, debug 2.
+;; For a complete description of all compiler switches given the
+;; current optimization settings evaluate (EXPLAIN-COMPILER-SETTINGS).
+CL-USER(1): (loas d "mwinter51.  a.lisP p)^?   ")
+; Loading /home01/26/mwinter/ICS313/mwinter5/mwinter5a.lisp
+Warning: *EDGES* is defined more than once as a variable in the file
+         /home01/26/mwinter/ICS313/mwinter5/mwinter5a.lisp.
+T
+CL-USER(2): (game-repl)
+look
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor. You see a bucket on the
+ floor. You see a left-gauntlet on the floor.pickup bucket
+
+You are now carrying the bucketwalk west
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.
+ you see a frog on the floor. You see a chain on the floor. You see a
+ chain-mail on the floor.pickup frog
+
+You are now carrying the frogpickup chain
+
+You are now carrying the chainpickup right-gauntlet              chain-mail
+
+You are now carrying the chain-mailwalk south
+
+You are in the bedroom. A sorceress sleeps soundly. There is a door
+ going north from here. You see a pillow on the floor. You see a
+ reinforced-helmet on the floor.
+
+I do not know that command.pickup reinforced0 0he   -helmet
+
+You are now carrying the reinforced-helmet(combine reinfor                 combine reinforced-helmet                   chain-mail reinforced-helmet
+
+I cant combine like that.walk north
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.walk we  east
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor. You see a left-gauntlet on
+ the floor.pickup righ    left-gaunl tlet
+
+You are now carrying the left-gauntletpi   walk upstairs
+
+You are in the attic. There is a giant welding torch in the corner.
+ there is a ladder going downstairs from here. You see a right-gauntlet
+ on the floor.pickup right-gauntlet
+
+You are now carrying the right-gauntletweld chain bucket
+
+The chain is now securely welded to the bucket.walk downstairs
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.walk west
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.combine chain-mail                      look
+
+You are in a beautiful garden. There is a well in front of you. There
+ is a door going east from here. There is a door going south from here.inventory
+
+Items- bucket frog chain left-gauntlet right-gauntlet
+ reinforced-helmet chain-mailcombine chain-mail reinforced-helmet
+
+The full suit is yours.... Its almost too heavyinventory
+
+Items- bucket frog chain full-suit-of-armordunk bucket well
+
+The bucket is now full of waterwalk east
+
+You are in the living-room. A wizard is snoring loudly on the couch.
+ there is a door going west from here. There is a ladder going upstairs
+ from here. You see a whiskey on the floor.spa lash wizard buec  cket             bucket wizard
+
+The wizard awakens and sees that you stole his frog. He is so upset he
+     banishes you to the netherworlds- you lose! The end.quit
+
+NIL
+CL-USER(3): exit    (x exit)
+; Exiting Lisp
+uhx01:/home01/26/mwinter/ICS313/mwinter5% exit
+uhx01:/home01/26/mwinter/ICS313/mwinter5% 
+script done on Sat Oct 26 23:07:15 2013
